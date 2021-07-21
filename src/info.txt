@@ -1,0 +1,13 @@
+tsc --init //  создает файл tsconfig.json
+
+ указать папки куда и откуда
+"outDir": "./build",
+"rootDir": "./src",    
+
+tsc // для компиляции тс в джис
+tsc -w // для слежки за изменением
+
+npm init -y
+npm i nodemon concurrently
+nodemon // перезапуск файла при его изменении
+concurrently // запуск нескольких скриптов оновременно
